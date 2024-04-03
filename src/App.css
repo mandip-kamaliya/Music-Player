@@ -1,0 +1,32 @@
+.music-player{
+    max-width: 500px;
+    margin: auto;
+    margin-top: 12px;
+
+}
+.controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    max-width: 190px;
+
+}
+.image-container{
+    width: 100%;
+    border-radius: 9px;
+    margin: auto;
+}
+.music-player .progress-bar {
+    height: 15px;
+    border-radius: 40%;
+    background-color: #cccccc;
+    margin: 20px 0px;
+    overflow: hidden;
+  }
+  .controls button{
+    font-size: 16px;
+    font-weight: 20px;
+    padding: 2px;
+    background-color: #d2ec3a;margin-top: 10px;
+  }
